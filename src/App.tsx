@@ -1,3 +1,9 @@
-export default function App(): JSX.Element {
-  return <div className="App">hello world</div>;
-}
+import Counter from "./components/Counter/Counter";
+
+const App = () => (
+  <div className="App">
+    <Counter />
+  </div>
+);
+
+export default App;
