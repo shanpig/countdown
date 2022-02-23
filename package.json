@@ -25,7 +25,8 @@
   },
   "dependencies": {
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "styled-components": "^5.3.3"
   },
   "devDependencies": {
     "@0x219/commitlint-config": "1.0.2",
@@ -45,7 +46,7 @@
     "eslint-plugin-prettier": "4.0.0",
     "eslint-plugin-react": "7.28.0",
     "eslint-plugin-react-hooks": "4.3.0",
-    "husky": "7.0.4",
+    "husky": "^7.0.4",
     "lint-staged": "12.3.4",
     "prettier": "2.5.1",
     "sort-package-json": "1.54.0",

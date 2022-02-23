@@ -17,5 +17,15 @@
     "browser": true,
     "node": true
   },
-  "ignorePatterns": "*.config.ts"
+  "ignorePatterns": "*.config.ts",
+  "rules": {
+    "no-restricted-imports": 0,
+    "react/function-component-definition": [
+      2,
+      {
+        "namedComponents": "arrow-function",
+        "unnamedComponents": "arrow-function"
+      }
+    ]
+  }
 }
